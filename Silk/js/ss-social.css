@@ -1,0 +1,255 @@
+@font-face {
+	font-family: SSSocial;
+	src: url(.font/ss-social/ss-social-circle.eot?#iefix) format("embedded-opentype"), url(.font/ss-social/ss-social-circle.woff) format("woff"), url(.font/ss-social/ss-social-circle.ttf) format("truetype"), url(.font/ss-social/ss-social-circle.svg#SSSocialCircle) format("svg");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: SSSocial;
+	src: url(.font/ss-social/ss-social-regular.eot?#iefix) format("embedded-opentype"), url(.font/ss-social/ss-social-regular.woff) format("woff"), url(.font/ss-social/ss-social-regular.ttf) format("truetype"), url(.font/ss-social/ss-social-regular.svg#SSSocialRegular) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+html:hover [class^='ss-'] {
+	-ms-zoom: 1;
+}
+.ss-icon {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+.ss-social.ss-icon {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+.ss-social-circle.ss-icon {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class^='ss-']::before {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class*=' ss-']::before {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class^='ss-'][class*=' ss-social']::before {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class*=' ss-'][class*=' ss-social']::before {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class^='ss-'].right::after {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class*=' ss-'].right::after {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class^='ss-'][class*=' ss-social'].right::after {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+[class*=' ss-'][class*=' ss-social'].right::after {
+	font-family: "SSSocial"; font-style: normal; font-weight: normal; text-decoration: none; white-space: nowrap; font-feature-settings: "liga" 1; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-font-feature-settings: "liga"; -o-font-feature-settings: "liga";
+}
+.ss-social-circle.ss-icon {
+	font-weight: bold;
+}
+[class^='ss-'].ss-social-circle::before {
+	font-weight: bold;
+}
+[class*=' ss-'].ss-social-circle::before {
+	font-weight: bold;
+}
+[class^='ss-'].right.ss-social-circle::after {
+	font-weight: bold;
+}
+[class*=' ss-'].right.ss-social-circle::after {
+	font-weight: bold;
+}
+[class^='ss-'].right::before {
+	display: none; content: "";
+}
+[class*=' ss-'].right::before {
+	display: none; content: "";
+}
+.ss-facebook::before {
+	content: "?";
+}
+.right.ss-facebook::after {
+	content: "?";
+}
+.ss-twitter::before {
+	content: "?";
+}
+.right.ss-twitter::after {
+	content: "?";
+}
+.ss-linkedin::before {
+	content: "?";
+}
+.right.ss-linkedin::after {
+	content: "?";
+}
+.ss-googleplus::before {
+	content: "?";
+}
+.right.ss-googleplus::after {
+	content: "?";
+}
+.ss-tumblr::before {
+	content: "?";
+}
+.right.ss-tumblr::after {
+	content: "?";
+}
+.ss-wordpress::before {
+	content: "?";
+}
+.right.ss-wordpress::after {
+	content: "?";
+}
+.ss-blogger::before {
+	content: "?";
+}
+.right.ss-blogger::after {
+	content: "?";
+}
+.ss-posterous::before {
+	content: "?";
+}
+.right.ss-posterous::after {
+	content: "?";
+}
+.ss-youtube::before {
+	content: "?";
+}
+.right.ss-youtube::after {
+	content: "?";
+}
+.ss-vimeo::before {
+	content: "?";
+}
+.right.ss-vimeo::after {
+	content: "?";
+}
+.ss-flickr::before {
+	content: "?";
+}
+.right.ss-flickr::after {
+	content: "?";
+}
+.ss-instagram::before {
+	content: "?";
+}
+.right.ss-instagram::after {
+	content: "?";
+}
+.ss-pinterest::before {
+	content: "?";
+}
+.right.ss-pinterest::after {
+	content: "?";
+}
+.ss-svpply::before {
+	content: "?";
+}
+.right.ss-svpply::after {
+	content: "?";
+}
+.ss-readmill::before {
+	content: "?";
+}
+.right.ss-readmill::after {
+	content: "?";
+}
+.ss-dropbox::before {
+	content: "?";
+}
+.right.ss-dropbox::after {
+	content: "?";
+}
+.ss-dribbble::before {
+	content: "?";
+}
+.right.ss-dribbble::after {
+	content: "?";
+}
+.ss-behance::before {
+	content: "?";
+}
+.right.ss-behance::after {
+	content: "?";
+}
+.ss-github::before {
+	content: "?";
+}
+.right.ss-github::after {
+	content: "?";
+}
+.ss-octocat::before {
+	content: "?";
+}
+.right.ss-octocat::after {
+	content: "?";
+}
+.ss-stackoverflow::before {
+	content: "?";
+}
+.right.ss-stackoverflow::after {
+	content: "?";
+}
+.ss-paypal::before {
+	content: "?";
+}
+.right.ss-paypal::after {
+	content: "?";
+}
+.ss-kickstarter::before {
+	content: "?";
+}
+.right.ss-kickstarter::after {
+	content: "?";
+}
+.ss-foursquare::before {
+	content: "?";
+}
+.right.ss-foursquare::after {
+	content: "?";
+}
+.ss-skype::before {
+	content: "?";
+}
+.right.ss-skype::after {
+	content: "?";
+}
+.ss-rdio::before {
+	content: "?";
+}
+.right.ss-rdio::after {
+	content: "?";
+}
+.ss-spotify::before {
+	content: "?";
+}
+.right.ss-spotify::after {
+	content: "?";
+}
+.ss-lastfm::before {
+	content: "?";
+}
+.right.ss-lastfm::after {
+	content: "?";
+}
+.ss-mail::before {
+	content: "?";
+}
+.right.ss-mail::after {
+	content: "?";
+}
+.ss-like::before {
+	content: "??";
+}
+.right.ss-like::after {
+	content: "??";
+}
+.ss-rss::before {
+	content: "За";
+}
+.right.ss-rss::after {
+	content: "За";
+}

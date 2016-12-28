@@ -1,0 +1,704 @@
+@font-face {
+	font-family: DINWeb;
+	src: url(../font/DINWeb.eot);
+}
+@font-face {
+	font-family: DINWeb;
+	src: url(../font/DINWeb.woff) format("woff");
+}
+.clearfix {
+	
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.hide-text {
+	font: 0px/0 a; border: 0px currentColor; border-image: none; color: transparent; font-size-adjust: none; font-stretch: normal; text-shadow: none; background-color: transparent;
+}
+.input-block-level {
+	width: 100%; display: block; min-height: 28px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box;
+}
+.clearfix {
+	
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.desaturate {
+	filter: url("resources.svg#desaturate"); -webkit-filter: grayscale(1); -moz-filter: grayscale(100%); -o-filter: grayscale(100%);
+}
+.clearfix::before {
+	display: table; content: " ";
+}
+.clearfix::after {
+	display: table; content: " ";
+}
+.clearfix::after {
+	clear: both;
+}
+.loading-stripes {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 0; background-size: 60px 60px; -webkit-animation: animate-stripes 2s linear infinite; -moz-background-size: 60px 60px; -webkit-background-size: 60px 60px;
+}
+body.iphone {
+	overflow: hidden;
+}
+body.iphone #iphone-image-link {
+	background: url("../img/iphone-horizontal.jpg") no-repeat top / 568px 240px; width: 100%; height: 100%; overflow: hidden; display: block !important; position: absolute; z-index: 1000;
+}
+body.right-side-up.iphone #iphone-image-link {
+	background: url("../img/iphone-vertical.jpg") no-repeat top / 320px 568px;
+}
+body.iphone * {
+	display: none;
+}
+#replay-thumbnail {
+	border-radius: 5px; border: 1px solid rgb(77, 65, 91); transition:opacity 0.7s ease-in-out; border-image: none; left: 25px; width: 150px; height: 150px; bottom: 25px; position: absolute; z-index: 1000; cursor: pointer; opacity: 0; pointer-events: none; box-shadow: 0px 0px 15px #000000; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out; -webkit-box-shadow: 0 0 15px #000000; -moz-box-shadow: 0 0 15px #000000;
+}
+.visible#replay-thumbnail {
+	opacity: 1; pointer-events: all;
+}
+#replay-thumbnail:hover {
+	border: 1px solid rgb(96, 73, 123); border-image: none;
+}
+#replay-thumbnail:active {
+	border: 1px solid rgb(90, 69, 116); border-image: none;
+}
+#replay-thumbnail img {
+	border-radius: 5px;
+}
+#replay-thumbnail .tt {
+	padding: 0px; left: 0px !important; top: -30px; width: 150px !important; text-align: center; bottom: auto;
+}
+#appstore-badge {
+	transition:opacity 0.7s ease-in-out; width: 165px; height: 300px; right: 30px; bottom: 20px; overflow: visible; text-decoration: none; position: absolute; z-index: 5; pointer-events: none; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out;
+}
+#appstore-badge #announcement {
+	transition:opacity 0.7s ease-in-out; width: 170px; height: 245px; opacity: 0; pointer-events: none; -webkit-transition: all 0.1 ease-in-out; -moz-transition: all 0.1 ease-in-out; -o-transition: all 0.1 ease-in-out;
+}
+#appstore-badge .visible#announcement {
+	opacity: 1; pointer-events: all;
+}
+#appstore-badge #announcement img {
+	-webkit-transition: all 0.1 ease-in-out; -moz-transition: all 0.1 ease-in-out; -o-transition: all 0.1 ease-in-out;
+}
+#appstore-badge #announcement .close-button {
+	background: rgb(34, 34, 34); border-radius: 5px; transition:0.8s ease-in-out 1s; top: 249px; width: 26px; height: 26px; text-align: center; right: -6px; color: rgb(174, 174, 214); line-height: 26px; font-size: 14px; display: block; position: absolute; z-index: 1000; box-shadow: 0px 0px 5px #000000; -webkit-transition: 0.8s all ease-in-out; -moz-transition: 0.8s all ease-in-out; -o-transition: 0.8s all ease-in-out; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; -webkit-transition-delay: 1s; -moz-transition-delay: 1s; -o-transition-delay: 1s;
+}
+#appstore-badge #announcement .close-button:active {
+	transition:none; opacity: 1; -webkit-transition: none; -moz-transition: none; -o-transition: none;
+}
+#appstore-badge #announcement .ad-showing-unnecessarily.close-button {
+	opacity: 0.7; pointer-events: all;
+}
+#appstore-badge #announcement .close-pressed.close-button {
+	opacity: 0; pointer-events: none;
+}
+#appstore-badge #announcement:hover .close-button {
+	opacity: 1;
+}
+#appstore-badge #announcement img {
+	margin-bottom: 5px; position: absolute;
+}
+#appstore-badge .visible#announcement #app-announcement {
+	z-index: 1; opacity: 1;
+}
+#appstore-badge .visible#announcement #app-announcement-hover {
+	z-index: 2; opacity: 0;
+}
+#appstore-badge .visible#announcement:hover #app-announcement {
+	opacity: 0;
+}
+#appstore-badge .visible#announcement:hover #app-announcement-hover {
+	opacity: 1;
+}
+#appstore-badge #badge {
+	margin: 5px auto 0px; transition:opacity 0.7s ease-in-out; left: 3px; width: 135px; height: 40px; bottom: -10px; position: relative; z-index: 100; opacity: 0; pointer-events: none; box-shadow: 0px 0px 15px #000000; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out; -webkit-box-shadow: 0 0 15px #000000; -moz-box-shadow: 0 0 15px #000000;
+}
+#appstore-badge .visible#badge {
+	opacity: 1; pointer-events: all;
+}
+#share-options .direct-link {
+	background: rgb(56, 44, 73); padding: 10px 0px; border: 1px solid rgb(17, 17, 17); transition:opacity 0.7s ease-in-out; border-image: none; width: 220px; color: rgb(204, 204, 204); text-indent: 10px; font-size: 12px; margin-top: 5px; margin-left: 10px; display: inline-block; cursor: text; opacity: 0; pointer-events: none; text-shadow: 0px 0px 5px #000, 1px 1px 0px #000; -ms-user-select: text !important; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out; -webkit-box-shadow: 0 0 15px #000, inner 0 0 5px #000; -moz-box-shadow: 0 0 15px #000, inner 0 0 5px #000; -webkit-user-select: text; -moz-user-select: text; -o-user-select: text; user-select: text;
+}
+#share-options .visible.direct-link {
+	opacity: 1; pointer-events: all;
+}
+#share-options .direct-link:focus {
+	border: 1px solid rgb(39, 111, 155); border-image: none;
+}
+#copy-to-clipboard-wrap {
+	position: relative;
+}
+#btn-new {
+	background: rgb(83, 65, 108) !important; border-top-color: rgb(95, 150, 225); border-top-width: 1px; border-top-style: solid;
+}
+#btn-share {
+	background: rgb(83, 65, 108) !important; border-top-color: rgb(95, 150, 225); border-top-width: 1px; border-top-style: solid;
+}
+#share-options .btn {
+	background: rgb(83, 65, 108) !important; border-top-color: rgb(95, 150, 225); border-top-width: 1px; border-top-style: solid;
+}
+#btn-new:hover {
+	border-top-color: rgb(53, 201, 255);
+}
+#btn-share:hover {
+	border-top-color: rgb(53, 201, 255);
+}
+#share-options .btn:hover {
+	border-top-color: rgb(53, 201, 255);
+}
+.hover#btn-new {
+	border-top-color: rgb(53, 201, 255);
+}
+.hover#btn-share {
+	border-top-color: rgb(53, 201, 255);
+}
+#share-options .hover.btn {
+	border-top-color: rgb(53, 201, 255);
+}
+#btn-new:hover .text {
+	color: rgb(255, 255, 255);
+}
+#btn-share:hover .text {
+	color: rgb(255, 255, 255);
+}
+#share-options .btn:hover .text {
+	color: rgb(255, 255, 255);
+}
+.hover#btn-new .text {
+	color: rgb(255, 255, 255);
+}
+.hover#btn-share .text {
+	color: rgb(255, 255, 255);
+}
+#share-options .hover.btn .text {
+	color: rgb(255, 255, 255);
+}
+#btn-new:active {
+	background: rgb(58, 45, 76) !important;
+}
+#btn-share:active {
+	background: rgb(58, 45, 76) !important;
+}
+#share-options .btn:active {
+	background: rgb(58, 45, 76) !important;
+}
+.active#btn-new {
+	background: rgb(58, 45, 76) !important;
+}
+.active#btn-share {
+	background: rgb(58, 45, 76) !important;
+}
+#share-options .active.btn {
+	background: rgb(58, 45, 76) !important;
+}
+.disabled#btn-new {
+	background: rgb(83, 65, 108) !important; border-top-color: rgb(95, 150, 225) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+.disabled#btn-share {
+	background: rgb(83, 65, 108) !important; border-top-color: rgb(95, 150, 225) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+#share-options .disabled.btn {
+	background: rgb(83, 65, 108) !important; border-top-color: rgb(95, 150, 225) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+#intro-center {
+	transition:opacity 1.5s ease-in-out; left: 50%; top: 50%; width: 300px; height: 150px; text-align: center; color: rgb(204, 204, 204); line-height: 100px; margin-top: -275px; margin-left: -150px; position: absolute; z-index: 100; opacity: 0; pointer-events: none !important; -webkit-transition: opacity 1.5s ease-in-out; -moz-transition: opacity 1.5s ease-in-out; -o-transition: opacity 1.5s ease-in-out;
+}
+.visible#intro-center {
+	opacity: 1; pointer-events: all;
+}
+#intro-draw-something {
+	transition:opacity 1.5s ease-in-out; top: 50%; width: 100%; height: 20px; text-align: center; color: rgb(164, 141, 196); font-size: 14px; margin-top: 170px; position: absolute; z-index: 101; opacity: 0; pointer-events: none !important; -webkit-transition: opacity 1.5s ease-in-out; -moz-transition: opacity 1.5s ease-in-out; -o-transition: opacity 1.5s ease-in-out;
+}
+.visible#intro-draw-something {
+	opacity: 1; pointer-events: all;
+}
+#intro-mute-option {
+	transition:opacity 1.5s ease-in-out; width: 100%; height: 20px; text-align: center; bottom: 20px; color: rgb(121, 105, 142); font-size: 14px; position: absolute; z-index: 100; opacity: 0; pointer-events: none !important; -webkit-transition: opacity 1.5s ease-in-out; -moz-transition: opacity 1.5s ease-in-out; -o-transition: opacity 1.5s ease-in-out;
+}
+.visible#intro-mute-option {
+	opacity: 1; pointer-events: all;
+}
+#intro-mute-option #instructions {
+	color: rgb(196, 178, 220); margin-bottom: 15px;
+}
+#intro-mute-option a {
+	color: rgb(148, 127, 177); text-decoration: none; border-bottom-color: rgb(164, 141, 196); border-bottom-width: 1px; border-bottom-style: dotted; pointer-events: all;
+}
+#intro-mute-option a:hover {
+	color: rgb(234, 219, 255); border-bottom-style: solid;
+}
+#intro-mute-option a:active {
+	color: rgb(209, 187, 239);
+}
+* {
+	margin: 0px; padding: 0px; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+}
+html {
+	background: rgb(0, 0, 0);
+}
+body {
+	background: rgb(0, 0, 0); overflow: hidden; font-family: DINWeb,Helvetica,sans-serif; font-size: 16px;
+}
+.text-drop-shadow {
+	text-shadow: 0px 0px 5px #000, 1px 1px 0px #000;
+}
+:hover > .tt {
+	opacity: 1; transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1);
+}
+.tt {
+	padding: 10px; transition:0.25s ease-out; left: -85px; width: 200px; height: 20px; text-align: center; bottom: -30px; color: rgb(255, 255, 255); font-size: 14px; white-space: nowrap; position: absolute; z-index: 100; opacity: 0; pointer-events: none; text-shadow: 0px 0px 5px #000, 1px 1px 0px #000; transform: scale(0.95); -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; -webkit-transform: scale(0.95); -moz-transform: scale(0.95); -o-transform: scale(0.95);
+}
+#main-controls {
+	left: 20px; top: 20px; z-index: 1000;
+}
+#sound-and-about {
+	top: 10px; right: 20px;
+}
+#sound-and-about .app-link-container {
+	transition:opacity 0.7s ease-in-out; width: 265px; color: rgb(204, 204, 204) !important; font-size: 13px; position: relative; opacity: 0; pointer-events: all; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out;
+}
+#sound-and-about .visible.app-link-container {
+	opacity: 1; pointer-events: all;
+}
+#sound-and-about .app-link-container a {
+	width: 135px; height: 40px; float: right; display: block;
+}
+#sound-and-about .app-link-container a {
+	color: rgb(215, 195, 242); text-decoration: none;
+}
+#sound-and-about .app-link-container a:hover {
+	color: rgb(255, 255, 255);
+}
+#sound-and-about .app-link-container a:active {
+	color: rgb(215, 195, 242);
+}
+#sound-and-about .social-row {
+	width: 265px;
+}
+#sound-and-about .social-row .silk-icon {
+	height: auto;
+}
+#sound-and-about .social-row .social {
+	transition:opacity 0.7s ease-in-out; top: 12px; right: 10px; padding-left: 15px; float: right; display: inline-block; position: relative; z-index: 1; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out;
+}
+#sound-and-about .social-row .visible.social {
+	opacity: 1; pointer-events: all;
+}
+#sound-and-about .social-row .social .fb-like {
+	left: -5px; top: -1px; overflow: hidden; display: inline-block; position: relative;
+}
+#sound-and-about .social-row .social .fb-like {
+	vertical-align: text-top !important;
+}
+#sound-and-about .social-row .social .fb-like * {
+	vertical-align: text-top !important;
+}
+#sound-and-about .social-row .social [style].twitter-follow-button {
+	vertical-align: text-top !important;
+}
+#sound-and-about .social-row .social .twitter-follow-button {
+	top: -1px; color: rgb(137, 118, 164); text-decoration: none; display: inline-block; position: relative;
+}
+#sound-and-about .silk-icon {
+	float: right;
+}
+#sound-and-about .about-row {
+	background: rgb(35, 28, 44); padding: 20px; transition:opacity 0.7s ease-in-out; width: 200px; color: rgb(137, 118, 164); line-height: 1.5; font-size: 13px; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out;
+}
+#sound-and-about .visible.about-row {
+	opacity: 1; pointer-events: all;
+}
+#sound-and-about .about-row a {
+	color: rgb(184, 163, 214); text-decoration: none;
+}
+#sound-and-about .about-row a:hover {
+	color: rgb(243, 233, 255);
+}
+#sound-and-about .about-row a:active {
+	color: rgb(219, 208, 233);
+}
+#sound-and-about .about-row p {
+	margin-bottom: 8px;
+}
+.controls-container {
+	position: absolute; z-index: 5; pointer-events: none;
+}
+.controls-container .row {
+	clear: both; pointer-events: none;
+}
+.controls-container .row::before {
+	display: table; content: "";
+}
+.controls-container .row::after {
+	display: table; content: "";
+}
+.controls-container .row::after {
+	clear: both;
+}
+.controls-container .row .btn {
+	background: rgb(38, 29, 50); transition:opacity 0.7s ease-in-out, color 0.7s ease-in-out; width: 95px; height: 45px; text-align: center; color: rgb(203, 178, 236); line-height: 45px; font-size: 14px; text-decoration: none; border-right-color: rgb(19, 14, 25); border-right-width: 1px; border-right-style: solid; float: left; position: relative; box-sizing: border-box; opacity: 0; pointer-events: none; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-transition: opacity 0.7s ease-in-out, color 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out, color 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out, color 0.7s ease-in-out;
+}
+.controls-container .row .visible.btn {
+	opacity: 1; pointer-events: all;
+}
+.controls-container .row :last-child.btn {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.controls-container .row .mini.btn {
+	width: 55px;
+}
+.controls-container .row .btn .loading-stripes {
+	transition:opacity 0.5s ease-out; opacity: 0; -webkit-transition: opacity 0.5s ease-out; -moz-transition: opacity 0.5s ease-out; -o-transition: opacity 0.5s ease-out;
+}
+.controls-container .row .disabled.btn {
+	background: rgb(38, 29, 50) !important; color: rgb(127, 110, 148) !important; cursor: default !important;
+}
+.controls-container .row .disabled.btn .text {
+	color: inherit !important;
+}
+.controls-container .row .loading.disabled.btn {
+	color: rgb(255, 255, 255) !important;
+}
+.controls-container .row .loading.disabled.btn .text {
+	color: rgb(255, 255, 255) !important;
+}
+.controls-container .row .loading.btn {
+	color: rgb(255, 255, 255) !important;
+}
+.controls-container .row .loading.btn .loading-stripes {
+	opacity: 1;
+}
+.controls-container .row .loading.btn .text {
+	color: rgb(255, 255, 255) !important;
+}
+.controls-container .row .btn:hover {
+	background: rgb(54, 42, 71); cursor: pointer;
+}
+.controls-container .row .btn:active {
+	background: rgb(50, 39, 66); color: rgb(196, 173, 228);
+}
+.controls-container .row .silk-icon.btn {
+	background: none !important; transition:opacity 0.7s ease-in-out; width: 47px; text-align: center; font-size: 14px; border-right-color: currentColor; border-right-width: medium; border-right-style: none; text-shadow: 0px 0px 5px #000, 1px 1px 0px #000; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out;
+}
+.controls-container .row .silk-icon.btn .tt {
+	margin-left: -2px;
+}
+.controls-container .row .silk-icon.btn:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.controls-container .row .silk-icon.btn:active {
+	color: rgb(219, 208, 233) !important;
+}
+.controls-container .row .silk-icon.btn i {
+	display: inline-block; transform: rotateY(0deg); -webkit-transform: rotateY(0deg); -moz-transform: rotateY(0deg); -o-transform: rotateY(0deg);
+}
+.controls-container .row .flip-icon.silk-icon.btn i {
+	transform: rotateY(180deg); -webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); -o-transform: rotateY(180deg);
+}
+.controls-container .row .silk-icon.btn:hover i {
+	transition:0.25s ease-out; -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out;
+}
+.controls-container .row .silk-icon.btn .tt {
+	bottom: -7px;
+}
+.controls-container .row #share-wrap {
+	float: left; position: relative;
+}
+.controls-container .row #share-wrap #btn-share {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none; position: absolute; z-index: 5;
+}
+.controls-container .row #share-options {
+	float: left; white-space: nowrap; position: relative; z-index: 4; pointer-events: none;
+}
+.controls-container .row #share-options .btn {
+	opacity: 0; pointer-events: none;
+}
+.controls-container .row #share-options .direct-link {
+	opacity: 0; pointer-events: none;
+}
+.controls-container .row .show-share-options#share-options .btn {
+	opacity: 1; pointer-events: all;
+}
+.controls-container .row .show-share-options#share-options .direct-link {
+	opacity: 1; pointer-events: all;
+}
+.controls-container .download-row {
+	position: absolute;
+}
+.controls-container .download-row img {
+	border: 1px solid rgb(44, 35, 58); border-image: none; width: 100%; box-shadow: 0px 0px 25px #000000; -webkit-box-shadow: 0 0 25px #000000; -moz-box-shadow: 0 0 25px #000000;
+}
+.controls-container .download-row p.instructions {
+	color: rgb(184, 163, 214); line-height: 1.5; font-size: 14px; margin-bottom: 15px; text-shadow: 0px 0px 5px #000, 1px 1px 0px #000;
+}
+.controls-container .download-row p.instructions em {
+	color: rgb(211, 193, 237); white-space: nowrap;
+}
+.controls-container .controls-row {
+	transition:opacity 0.7s ease-in-out; width: 195px; font-size: 14px; margin-top: 15px; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.7s ease-in-out; -moz-transition: opacity 0.7s ease-in-out; -o-transition: opacity 0.7s ease-in-out;
+}
+.controls-container .visible.controls-row {
+	opacity: 1; pointer-events: all;
+}
+.controls-container .color-and-symmetry-row.controls-row {
+	margin-top: 10px;
+}
+.controls-container .color-and-symmetry-row.controls-row .silk-icon {
+	cursor: pointer;
+}
+.controls-container .controls-row .label {
+	margin: 15px 5px 25px; color: rgb(137, 118, 164); cursor: default; text-shadow: 0px 0px 5px #000, 1px 1px 0px #000;
+}
+.controls-container .controls-row .control {
+	
+}
+.controls-container .controls-row .control::before {
+	display: table; content: "";
+}
+.controls-container .controls-row .control::after {
+	display: table; content: "";
+}
+.controls-container .controls-row .control::after {
+	clear: both;
+}
+.controls-container .controls-row .toggle.control {
+	padding: 0px 5px 15px; color: rgb(137, 118, 164); cursor: pointer; text-shadow: 0px 0px 5px #000, 1px 1px 0px #000;
+}
+.controls-container .controls-row .toggle.control:hover {
+	color: rgb(243, 233, 255);
+}
+.controls-container .controls-row .toggle.control:active {
+	color: rgb(219, 208, 233);
+}
+.controls-container .controls-row .toggle.control .state-on {
+	display: none;
+}
+.controls-container .controls-row .toggle.control .state-off {
+	display: block;
+}
+.controls-container .controls-row .on.toggle.control {
+	color: rgb(203, 178, 236);
+}
+.controls-container .controls-row .on.toggle.control:hover {
+	color: rgb(243, 233, 255);
+}
+.controls-container .controls-row .on.toggle.control:active {
+	color: rgb(219, 208, 233);
+}
+.controls-container .controls-row .on.toggle.control .state-on {
+	display: block;
+}
+.controls-container .controls-row .on.toggle.control .state-off {
+	display: none;
+}
+.controls-container .controls-row .description {
+	float: left;
+}
+.controls-container .controls-row .state {
+	text-align: right; float: right;
+}
+.controls-container .controls-row #colorpicker {
+	width: 100%; height: 185px; display: block; cursor: pointer !important; -ms-user-select: none !important; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+}
+.controls-container .controls-row #colorpicker g {
+	cursor: pointer !important; -ms-user-select: none !important; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+}
+.controls-container .controls-row #colorpicker path {
+	cursor: pointer !important; -ms-user-select: none !important; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+}
+.controls-container .controls-row #colorpicker path:hover {
+	stroke: rgba(255, 255, 255, 0.5); stroke-width: 4;
+}
+.controls-container .controls-row #colorpicker path.selected {
+	stroke: rgba(255, 255, 255, 0.6); stroke-width: 6;
+}
+.controls-container .one-d.slider {
+	background: rgb(35, 28, 44); border-radius: 30px; height: 30px; position: relative; cursor: pointer;
+}
+.controls-container .one-d.slider .slider-bg {
+	background: rgb(21, 17, 28); margin: 0px 10px; border-radius: 30px; top: 10px; height: 10px; overflow: hidden; position: relative;
+}
+.controls-container .one-d.slider .slider-bg .slider-bg-pc {
+	background: rgb(117, 122, 178); border-radius: 30px; height: 10px; position: absolute; z-index: 2;
+}
+.controls-container .one-d.slider .handle {
+	background: rgb(133, 114, 175); border-radius: 30px; top: 6px; width: 18px; height: 18px; position: absolute; z-index: 5; box-shadow: 0px 0px 25px #000000; -webkit-box-shadow: 0 0 25px #000000; -moz-box-shadow: 0 0 25px #000000;
+}
+.controls-container .one-d.slider .ghost-handle {
+	background: rgb(133, 114, 175); border-radius: 30px; top: 6px; width: 18px; height: 18px; position: absolute; z-index: 5; box-shadow: 0px 0px 25px #000000; -webkit-box-shadow: 0 0 25px #000000; -moz-box-shadow: 0 0 25px #000000;
+}
+.controls-container .one-d.slider:active .handle {
+	background: rgb(111, 96, 145);
+}
+.controls-container .one-d.slider .ghost-handle {
+	transition:opacity 0.25s ease-out; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.25s ease-out; -moz-transition: opacity 0.25s ease-out; -o-transition: opacity 0.25s ease-out;
+}
+.controls-container .one-d.slider:hover .ghost-handle {
+	opacity: 0.75; pointer-events: all;
+}
+.controls-container .one-d.slider:active .ghost-handle {
+	opacity: 0;
+}
+.controls-container .two-d.slider {
+	background: rgb(35, 28, 44); border-radius: 30px; height: 145px; position: relative; cursor: pointer;
+}
+.controls-container .two-d.slider .slider-bg {
+	background: rgb(21, 17, 28); margin: 0px 10px; border-radius: 30px; top: 10px; height: 125px; overflow: hidden; position: relative;
+}
+.controls-container .two-d.slider .slider-bg .slider-bg-pc {
+	background: rgb(117, 122, 178); border-radius: 30px; height: 125px; position: absolute; z-index: 2;
+}
+.controls-container .two-d.slider .handle {
+	background: rgb(133, 114, 175); border-radius: 30px; top: 63.5px; width: 18px; height: 18px; position: absolute; z-index: 5; box-shadow: 0px 0px 25px #000000; -webkit-box-shadow: 0 0 25px #000000; -moz-box-shadow: 0 0 25px #000000;
+}
+.controls-container .two-d.slider .ghost-handle {
+	background: rgb(133, 114, 175); border-radius: 30px; top: 63.5px; width: 18px; height: 18px; position: absolute; z-index: 5; box-shadow: 0px 0px 25px #000000; -webkit-box-shadow: 0 0 25px #000000; -moz-box-shadow: 0 0 25px #000000;
+}
+.controls-container .two-d.slider:active .handle {
+	background: rgb(111, 96, 145);
+}
+.controls-container .two-d.slider .ghost-handle {
+	transition:opacity 0.25s ease-out; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.25s ease-out; -moz-transition: opacity 0.25s ease-out; -o-transition: opacity 0.25s ease-out;
+}
+.controls-container .two-d.slider:hover .ghost-handle {
+	opacity: 0.75; pointer-events: all;
+}
+.controls-container .two-d.slider:active .ghost-handle {
+	opacity: 0;
+}
+.controls-container #symmetry-controls {
+	margin-top: 15px;
+}
+.controls-container #sym-num-rotations .ticks {
+	width: 100%; height: 100%; position: absolute; z-index: 1; pointer-events: none;
+}
+.controls-container #sym-num-rotations .ticks .tick {
+	background: none; width: 1px; height: 100%; position: absolute;
+}
+.controls-container #sym-num-rotations .ticks .one.tick {
+	left: 16.66%;
+}
+.controls-container #sym-num-rotations .ticks .two.tick {
+	left: 33.33%;
+}
+.controls-container #sym-num-rotations .ticks .three.tick {
+	left: 50%;
+}
+.controls-container #sym-num-rotations .ticks .four.tick {
+	left: 66.66%;
+}
+.controls-container #sym-num-rotations .ticks .five.tick {
+	left: 83.33%;
+}
+.controls-container #sym-num-rotations .ticks .six.tick {
+	left: 100%;
+}
+body.silk-active #main-controls {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls .btn {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls .row * {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls .row {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls .control {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls .slider {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls #colorpicker {
+	pointer-events: none !important;
+}
+body.silk-active #main-controls #colorpicker * {
+	pointer-events: none !important;
+}
+body.silk-active #appstore-badge {
+	pointer-events: none !important;
+}
+body.silk-active #announcement {
+	pointer-events: none !important;
+}
+body.silk-active #app-announcement {
+	pointer-events: none !important;
+}
+body.silk-active #app-announcement-hover {
+	pointer-events: none !important;
+}
+body.silk-active #badge {
+	pointer-events: none !important;
+}
+body.mouse-down-on-slider .control.toggle {
+	pointer-events: none !important;
+}
+body.mouse-over-previewable-controls #sparks {
+	pointer-events: none;
+}
+body.mouse-down-on-slider #sparks {
+	pointer-events: none;
+}
+#canvii-container {
+	left: 0px; position: relative;
+}
+#silk-1 {
+	left: 0px; top: 0px; position: absolute;
+}
+#silk-2 {
+	left: 0px; top: 0px; position: absolute;
+}
+#sparks {
+	left: 0px; top: 0px; position: absolute;
+}
+.silk-canvas {
+	transition:opacity 0.75s ease-out; z-index: 1; opacity: 1; -webkit-transition: opacity 0.75s ease-out; -moz-transition: opacity 0.75s ease-out; -o-transition: opacity 0.75s ease-out;
+}
+.onepacity.silk-canvas {
+	transition:none; opacity: 1; -webkit-transition: none; -moz-transition: none; -o-transition: none;
+}
+.active.silk-canvas {
+	z-index: 2; pointer-events: all;
+}
+.zeropacity.active.silk-canvas {
+	transition:none; opacity: 0; -webkit-transition: none; -moz-transition: none; -o-transition: none;
+}
+#sparks {
+	z-index: 3; cursor: pointer;
+}
+#tips {
+	top: 50%; width: 100%; height: 50px; color: rgb(255, 255, 255); line-height: 50px; margin-top: -25px; position: absolute; z-index: 3; pointer-events: none;
+}
+#tips .tip {
+	transition:0.5s ease-in-out; width: 100%; text-align: center; color: rgb(100, 96, 126); font-size: 18px; position: absolute; opacity: 0; text-shadow: 0px 0px 5px #000; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;
+}
+#tips .tip a {
+	color: rgb(150, 188, 123); text-decoration: none; border-bottom-color: rgb(90, 85, 121); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#tips .tip a:hover {
+	color: rgb(187, 229, 156); border-bottom-color: rgb(121, 116, 157); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#tips .tip a:active {
+	color: rgb(168, 212, 136);
+}
+#tips .showing.tip {
+	opacity: 1;
+}
+#tips .showing.tip a {
+	pointer-events: all;
+}
